@@ -1,0 +1,1108 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'install' ]
+2 info using npm@3.10.10
+3 info using node@v6.17.1
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly install normalizeTree
+8 silly loadCurrentTree Finishing
+9 silly loadIdealTree Starting
+10 silly install loadIdealTree
+11 silly cloneCurrentTree Starting
+12 silly install cloneCurrentTreeToIdealTree
+13 silly cloneCurrentTree Finishing
+14 silly loadShrinkwrap Starting
+15 silly install loadShrinkwrap
+16 silly loadShrinkwrap Finishing
+17 silly loadAllDepsIntoIdealTree Starting
+18 silly install loadAllDepsIntoIdealTree
+19 silly fetchNamedPackageData istanbul
+20 silly mapToRegistry name istanbul
+21 silly mapToRegistry using default registry
+22 silly mapToRegistry registry https://registry.npmjs.org/
+23 silly mapToRegistry data Result {
+23 silly mapToRegistry   raw: 'istanbul',
+23 silly mapToRegistry   scope: null,
+23 silly mapToRegistry   escapedName: 'istanbul',
+23 silly mapToRegistry   name: 'istanbul',
+23 silly mapToRegistry   rawSpec: '',
+23 silly mapToRegistry   spec: 'latest',
+23 silly mapToRegistry   type: 'tag' }
+24 silly mapToRegistry uri https://registry.npmjs.org/istanbul
+25 silly fetchNamedPackageData jenkins-mocha
+26 silly mapToRegistry name jenkins-mocha
+27 silly mapToRegistry using default registry
+28 silly mapToRegistry registry https://registry.npmjs.org/
+29 silly mapToRegistry data Result {
+29 silly mapToRegistry   raw: 'jenkins-mocha',
+29 silly mapToRegistry   scope: null,
+29 silly mapToRegistry   escapedName: 'jenkins-mocha',
+29 silly mapToRegistry   name: 'jenkins-mocha',
+29 silly mapToRegistry   rawSpec: '',
+29 silly mapToRegistry   spec: 'latest',
+29 silly mapToRegistry   type: 'tag' }
+30 silly mapToRegistry uri https://registry.npmjs.org/jenkins-mocha
+31 verbose request uri https://registry.npmjs.org/jenkins-mocha
+32 verbose request no auth needed
+33 info attempt registry request try #1 at 10:47:02 AM
+34 verbose request id f7609e7468ff4505
+35 verbose etag W/"ca912abbd4c79e70b81cb5054f87f1d5"
+36 verbose lastModified Mon, 01 Jul 2019 03:50:38 GMT
+37 http request GET https://registry.npmjs.org/jenkins-mocha
+38 verbose request uri https://registry.npmjs.org/istanbul
+39 verbose request no auth needed
+40 info attempt registry request try #1 at 10:47:02 AM
+41 verbose etag W/"ebc21bec19266e2b5fb7fb66e907f662"
+42 verbose lastModified Thu, 31 Jan 2019 21:36:04 GMT
+43 http request GET https://registry.npmjs.org/istanbul
+44 http 304 https://registry.npmjs.org/jenkins-mocha
+45 verbose headers { date: 'Thu, 17 Oct 2019 10:47:04 GMT',
+45 verbose headers   connection: 'keep-alive',
+45 verbose headers   'set-cookie': [ '__cfduid=dd0ce06588491ece97af55f7eca6258f21571309224; expires=Fri, 16-Oct-20 10:47:04 GMT; path=/; domain=.npmjs.org; HttpOnly' ],
+45 verbose headers   'cf-cache-status': 'HIT',
+45 verbose headers   'cache-control': 'max-age=300',
+45 verbose headers   'cf-ray': '5271b13b8b0dbb94-LHR',
+45 verbose headers   age: '1075',
+45 verbose headers   etag: '"ca912abbd4c79e70b81cb5054f87f1d5"',
+45 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+45 verbose headers   'last-modified': 'Mon, 01 Jul 2019 03:50:38 GMT',
+45 verbose headers   vary: 'accept-encoding, accept',
+45 verbose headers   'x-amz-meta-rev': '53-8cd83bfb0dd13ee39ac7524c052989e2',
+45 verbose headers   server: 'cloudflare' }
+46 silly get cb [ 304,
+46 silly get   { date: 'Thu, 17 Oct 2019 10:47:04 GMT',
+46 silly get     connection: 'keep-alive',
+46 silly get     'set-cookie': [ '__cfduid=dd0ce06588491ece97af55f7eca6258f21571309224; expires=Fri, 16-Oct-20 10:47:04 GMT; path=/; domain=.npmjs.org; HttpOnly' ],
+46 silly get     'cf-cache-status': 'HIT',
+46 silly get     'cache-control': 'max-age=300',
+46 silly get     'cf-ray': '5271b13b8b0dbb94-LHR',
+46 silly get     age: '1075',
+46 silly get     etag: '"ca912abbd4c79e70b81cb5054f87f1d5"',
+46 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+46 silly get     'last-modified': 'Mon, 01 Jul 2019 03:50:38 GMT',
+46 silly get     vary: 'accept-encoding, accept',
+46 silly get     'x-amz-meta-rev': '53-8cd83bfb0dd13ee39ac7524c052989e2',
+46 silly get     server: 'cloudflare' } ]
+47 verbose etag https://registry.npmjs.org/jenkins-mocha from cache
+48 verbose get saving jenkins-mocha to /home/vagrant/.npm/registry.npmjs.org/jenkins-mocha/.cache.json
+49 verbose correctMkdir /home/vagrant/.npm correctMkdir not in flight; initializing
+50 http 304 https://registry.npmjs.org/istanbul
+51 verbose headers { date: 'Thu, 17 Oct 2019 10:47:04 GMT',
+51 verbose headers   connection: 'keep-alive',
+51 verbose headers   'set-cookie': [ '__cfduid=d7ff3292cb0130d62b35850d9c390c1301571309224; expires=Fri, 16-Oct-20 10:47:04 GMT; path=/; domain=.npmjs.org; HttpOnly' ],
+51 verbose headers   'cf-cache-status': 'HIT',
+51 verbose headers   'cache-control': 'max-age=300',
+51 verbose headers   'cf-ray': '5271b13b8ccddbf7-LHR',
+51 verbose headers   age: '1475',
+51 verbose headers   etag: '"ebc21bec19266e2b5fb7fb66e907f662"',
+51 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+51 verbose headers   'last-modified': 'Thu, 31 Jan 2019 21:36:04 GMT',
+51 verbose headers   vary: 'accept-encoding, accept',
+51 verbose headers   'x-amz-meta-rev': '455-8a3a853552f4f4cee2422aebe792c271',
+51 verbose headers   server: 'cloudflare' }
+52 silly get cb [ 304,
+52 silly get   { date: 'Thu, 17 Oct 2019 10:47:04 GMT',
+52 silly get     connection: 'keep-alive',
+52 silly get     'set-cookie': [ '__cfduid=d7ff3292cb0130d62b35850d9c390c1301571309224; expires=Fri, 16-Oct-20 10:47:04 GMT; path=/; domain=.npmjs.org; HttpOnly' ],
+52 silly get     'cf-cache-status': 'HIT',
+52 silly get     'cache-control': 'max-age=300',
+52 silly get     'cf-ray': '5271b13b8ccddbf7-LHR',
+52 silly get     age: '1475',
+52 silly get     etag: '"ebc21bec19266e2b5fb7fb66e907f662"',
+52 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+52 silly get     'last-modified': 'Thu, 31 Jan 2019 21:36:04 GMT',
+52 silly get     vary: 'accept-encoding, accept',
+52 silly get     'x-amz-meta-rev': '455-8a3a853552f4f4cee2422aebe792c271',
+52 silly get     server: 'cloudflare' } ]
+53 verbose etag https://registry.npmjs.org/istanbul from cache
+54 verbose get saving istanbul to /home/vagrant/.npm/registry.npmjs.org/istanbul/.cache.json
+55 verbose correctMkdir /home/vagrant/.npm correctMkdir not in flight; initializing
+56 silly resolveWithNewModule jenkins-mocha@3.0.4 checking installable status
+57 silly cache add args [ 'jenkins-mocha@^3.0.4', null ]
+58 verbose cache add spec jenkins-mocha@^3.0.4
+59 silly cache add parsed spec Result {
+59 silly cache add   raw: 'jenkins-mocha@^3.0.4',
+59 silly cache add   scope: null,
+59 silly cache add   escapedName: 'jenkins-mocha',
+59 silly cache add   name: 'jenkins-mocha',
+59 silly cache add   rawSpec: '^3.0.4',
+59 silly cache add   spec: '>=3.0.4 <4.0.0',
+59 silly cache add   type: 'range' }
+60 silly addNamed jenkins-mocha@>=3.0.4 <4.0.0
+61 verbose addNamed ">=3.0.4 <4.0.0" is a valid semver range for jenkins-mocha
+62 silly addNameRange { name: 'jenkins-mocha',
+62 silly addNameRange   range: '>=3.0.4 <4.0.0',
+62 silly addNameRange   hasData: false }
+63 silly mapToRegistry name jenkins-mocha
+64 silly mapToRegistry using default registry
+65 silly mapToRegistry registry https://registry.npmjs.org/
+66 silly mapToRegistry data Result {
+66 silly mapToRegistry   raw: 'jenkins-mocha',
+66 silly mapToRegistry   scope: null,
+66 silly mapToRegistry   escapedName: 'jenkins-mocha',
+66 silly mapToRegistry   name: 'jenkins-mocha',
+66 silly mapToRegistry   rawSpec: '',
+66 silly mapToRegistry   spec: 'latest',
+66 silly mapToRegistry   type: 'tag' }
+67 silly mapToRegistry uri https://registry.npmjs.org/jenkins-mocha
+68 verbose addNameRange registry:https://registry.npmjs.org/jenkins-mocha not in flight; fetching
+69 verbose get https://registry.npmjs.org/jenkins-mocha not expired, no request
+70 silly addNameRange number 2 { name: 'jenkins-mocha', range: '>=3.0.4 <4.0.0', hasData: true }
+71 silly addNameRange versions [ 'jenkins-mocha',
+71 silly addNameRange   [ '1.0.0',
+71 silly addNameRange     '1.0.1',
+71 silly addNameRange     '1.0.2',
+71 silly addNameRange     '1.0.3',
+71 silly addNameRange     '1.0.4',
+71 silly addNameRange     '1.0.5',
+71 silly addNameRange     '1.0.6',
+71 silly addNameRange     '1.0.7',
+71 silly addNameRange     '1.0.8',
+71 silly addNameRange     '1.0.9',
+71 silly addNameRange     '2.0.0',
+71 silly addNameRange     '2.0.1',
+71 silly addNameRange     '2.1.0',
+71 silly addNameRange     '2.2.0',
+71 silly addNameRange     '2.3.0',
+71 silly addNameRange     '2.3.1',
+71 silly addNameRange     '2.4.0',
+71 silly addNameRange     '2.5.0',
+71 silly addNameRange     '2.6.0',
+71 silly addNameRange     '3.0.0',
+71 silly addNameRange     '3.0.2',
+71 silly addNameRange     '3.0.3',
+71 silly addNameRange     '3.0.4',
+71 silly addNameRange     '4.0.0',
+71 silly addNameRange     '4.1.0',
+71 silly addNameRange     '4.1.1',
+71 silly addNameRange     '4.1.2',
+71 silly addNameRange     '5.0.0',
+71 silly addNameRange     '6.0.0',
+71 silly addNameRange     '7.0.0',
+71 silly addNameRange     '8.0.0' ] ]
+72 silly addNamed jenkins-mocha@3.0.4
+73 verbose addNamed "3.0.4" is a plain semver version for jenkins-mocha
+74 silly resolveWithNewModule istanbul@0.4.5 checking installable status
+75 silly cache add args [ 'istanbul@^0.4.5', null ]
+76 verbose cache add spec istanbul@^0.4.5
+77 silly cache add parsed spec Result {
+77 silly cache add   raw: 'istanbul@^0.4.5',
+77 silly cache add   scope: null,
+77 silly cache add   escapedName: 'istanbul',
+77 silly cache add   name: 'istanbul',
+77 silly cache add   rawSpec: '^0.4.5',
+77 silly cache add   spec: '>=0.4.5 <0.5.0',
+77 silly cache add   type: 'range' }
+78 silly addNamed istanbul@>=0.4.5 <0.5.0
+79 verbose addNamed ">=0.4.5 <0.5.0" is a valid semver range for istanbul
+80 silly addNameRange { name: 'istanbul', range: '>=0.4.5 <0.5.0', hasData: false }
+81 silly mapToRegistry name istanbul
+82 silly mapToRegistry using default registry
+83 silly mapToRegistry registry https://registry.npmjs.org/
+84 silly mapToRegistry data Result {
+84 silly mapToRegistry   raw: 'istanbul',
+84 silly mapToRegistry   scope: null,
+84 silly mapToRegistry   escapedName: 'istanbul',
+84 silly mapToRegistry   name: 'istanbul',
+84 silly mapToRegistry   rawSpec: '',
+84 silly mapToRegistry   spec: 'latest',
+84 silly mapToRegistry   type: 'tag' }
+85 silly mapToRegistry uri https://registry.npmjs.org/istanbul
+86 verbose addNameRange registry:https://registry.npmjs.org/istanbul not in flight; fetching
+87 verbose get https://registry.npmjs.org/istanbul not expired, no request
+88 silly addNameRange number 2 { name: 'istanbul', range: '>=0.4.5 <0.5.0', hasData: true }
+89 silly addNameRange versions [ 'istanbul',
+89 silly addNameRange   [ '0.1.0',
+89 silly addNameRange     '0.1.1',
+89 silly addNameRange     '0.1.2',
+89 silly addNameRange     '0.1.3',
+89 silly addNameRange     '0.1.4',
+89 silly addNameRange     '0.1.5',
+89 silly addNameRange     '0.1.6',
+89 silly addNameRange     '0.1.7',
+89 silly addNameRange     '0.1.8',
+89 silly addNameRange     '0.1.9',
+89 silly addNameRange     '0.1.10',
+89 silly addNameRange     '0.1.11',
+89 silly addNameRange     '0.1.12',
+89 silly addNameRange     '0.1.13',
+89 silly addNameRange     '0.1.14',
+89 silly addNameRange     '0.1.15',
+89 silly addNameRange     '0.1.16',
+89 silly addNameRange     '0.1.17',
+89 silly addNameRange     '0.1.18',
+89 silly addNameRange     '0.1.19',
+89 silly addNameRange     '0.1.20',
+89 silly addNameRange     '0.1.21',
+89 silly addNameRange     '0.1.22',
+89 silly addNameRange     '0.1.23',
+89 silly addNameRange     '0.1.24',
+89 silly addNameRange     '0.1.25',
+89 silly addNameRange     '0.1.26',
+89 silly addNameRange     '0.1.27',
+89 silly addNameRange     '0.1.28',
+89 silly addNameRange     '0.1.29',
+89 silly addNameRange     '0.1.30',
+89 silly addNameRange     '0.1.31',
+89 silly addNameRange     '0.1.32',
+89 silly addNameRange     '0.1.33',
+89 silly addNameRange     '0.1.34',
+89 silly addNameRange     '0.1.35',
+89 silly addNameRange     '0.1.36',
+89 silly addNameRange     '0.1.37',
+89 silly addNameRange     '0.1.38',
+89 silly addNameRange     '0.1.39',
+89 silly addNameRange     '0.1.40',
+89 silly addNameRange     '0.1.41',
+89 silly addNameRange     '0.1.42',
+89 silly addNameRange     '0.1.43',
+89 silly addNameRange     '0.1.44',
+89 silly addNameRange     '0.1.45',
+89 silly addNameRange     '0.1.46',
+89 silly addNameRange     '0.2.0',
+89 silly addNameRange     '0.2.1',
+89 silly addNameRange     '0.2.2',
+89 silly addNameRange     '0.2.3',
+89 silly addNameRange     '0.2.4',
+89 silly addNameRange     '0.2.5',
+89 silly addNameRange     '0.2.6',
+89 silly addNameRange     '0.2.7',
+89 silly addNameRange     '0.2.8',
+89 silly addNameRange     '0.2.9',
+89 silly addNameRange     '0.2.10',
+89 silly addNameRange     '0.2.11',
+89 silly addNameRange     '0.2.12',
+89 silly addNameRange     '0.2.13',
+89 silly addNameRange     '0.2.14',
+89 silly addNameRange     '0.2.15',
+89 silly addNameRange     '0.2.16',
+89 silly addNameRange     '0.3.0',
+89 silly addNameRange     '0.3.1',
+89 silly addNameRange     '0.3.2',
+89 silly addNameRange     '0.3.3',
+89 silly addNameRange     '0.3.4',
+89 silly addNameRange     '0.3.5',
+89 silly addNameRange     '0.3.6',
+89 silly addNameRange     '0.3.7',
+89 silly addNameRange     '0.3.8',
+89 silly addNameRange     '0.3.9',
+89 silly addNameRange     '0.3.10',
+89 silly addNameRange     '0.3.11',
+89 silly addNameRange     '0.3.13',
+89 silly addNameRange     '0.3.14',
+89 silly addNameRange     '0.3.15',
+89 silly addNameRange     '0.3.16',
+89 silly addNameRange     '0.3.17',
+89 silly addNameRange     '0.3.18',
+89 silly addNameRange     '0.3.19',
+89 silly addNameRange     '0.3.20',
+89 silly addNameRange     '0.3.21',
+89 silly addNameRange     '0.3.22',
+89 silly addNameRange     '0.4.0',
+89 silly addNameRange     '0.4.1',
+89 silly addNameRange     '1.0.0-alpha.1',
+89 silly addNameRange     '1.0.0-alpha.2',
+89 silly addNameRange     '0.4.2',
+89 silly addNameRange     '0.4.3',
+89 silly addNameRange     '0.4.4',
+89 silly addNameRange     '1.1.0-alpha.1',
+89 silly addNameRange     '0.4.5' ] ]
+90 silly addNamed istanbul@0.4.5
+91 verbose addNamed "0.4.5" is a plain semver version for istanbul
+92 warn deprecated istanbul@0.4.5: This module is no longer maintained, try this instead:
+92 warn deprecated   npm i nyc
+92 warn deprecated Visit https://istanbul.js.org/integrations for other alternatives.
+93 silly cache afterAdd jenkins-mocha@3.0.4
+94 verbose afterAdd /home/vagrant/.npm/jenkins-mocha/3.0.4/package/package.json not in flight; writing
+95 verbose correctMkdir /home/vagrant/.npm correctMkdir not in flight; initializing
+96 silly cache afterAdd istanbul@0.4.5
+97 verbose afterAdd /home/vagrant/.npm/istanbul/0.4.5/package/package.json not in flight; writing
+98 verbose correctMkdir /home/vagrant/.npm correctMkdir not in flight; initializing
+99 verbose afterAdd /home/vagrant/.npm/jenkins-mocha/3.0.4/package/package.json written
+100 verbose afterAdd /home/vagrant/.npm/istanbul/0.4.5/package/package.json written
+101 silly fetchNamedPackageData esprima
+102 silly mapToRegistry name esprima
+103 silly mapToRegistry using default registry
+104 silly mapToRegistry registry https://registry.npmjs.org/
+105 silly mapToRegistry data Result {
+105 silly mapToRegistry   raw: 'esprima',
+105 silly mapToRegistry   scope: null,
+105 silly mapToRegistry   escapedName: 'esprima',
+105 silly mapToRegistry   name: 'esprima',
+105 silly mapToRegistry   rawSpec: '',
+105 silly mapToRegistry   spec: 'latest',
+105 silly mapToRegistry   type: 'tag' }
+106 silly mapToRegistry uri https://registry.npmjs.org/esprima
+107 verbose request uri https://registry.npmjs.org/esprima
+108 verbose request no auth needed
+109 info attempt registry request try #1 at 10:47:03 AM
+110 verbose etag W/"1408d15684aa02561523c247813d3acf"
+111 verbose lastModified Sun, 29 Sep 2019 09:56:40 GMT
+112 http request GET https://registry.npmjs.org/esprima
+113 http 304 https://registry.npmjs.org/esprima
+114 verbose headers { date: 'Thu, 17 Oct 2019 10:47:04 GMT',
+114 verbose headers   connection: 'keep-alive',
+114 verbose headers   'set-cookie': [ '__cfduid=dd0ce06588491ece97af55f7eca6258f21571309224; expires=Fri, 16-Oct-20 10:47:04 GMT; path=/; domain=.npmjs.org; HttpOnly' ],
+114 verbose headers   'cf-cache-status': 'HIT',
+114 verbose headers   'cache-control': 'max-age=300',
+114 verbose headers   'cf-ray': '5271b13e9eecbb94-LHR',
+114 verbose headers   age: '4058',
+114 verbose headers   etag: '"1408d15684aa02561523c247813d3acf"',
+114 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+114 verbose headers   'last-modified': 'Sun, 29 Sep 2019 09:56:40 GMT',
+114 verbose headers   vary: 'accept-encoding, accept',
+114 verbose headers   'x-amz-meta-rev': '174-d8b3238dbfc423d67528264991def208',
+114 verbose headers   server: 'cloudflare' }
+115 silly get cb [ 304,
+115 silly get   { date: 'Thu, 17 Oct 2019 10:47:04 GMT',
+115 silly get     connection: 'keep-alive',
+115 silly get     'set-cookie': [ '__cfduid=dd0ce06588491ece97af55f7eca6258f21571309224; expires=Fri, 16-Oct-20 10:47:04 GMT; path=/; domain=.npmjs.org; HttpOnly' ],
+115 silly get     'cf-cache-status': 'HIT',
+115 silly get     'cache-control': 'max-age=300',
+115 silly get     'cf-ray': '5271b13e9eecbb94-LHR',
+115 silly get     age: '4058',
+115 silly get     etag: '"1408d15684aa02561523c247813d3acf"',
+115 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+115 silly get     'last-modified': 'Sun, 29 Sep 2019 09:56:40 GMT',
+115 silly get     vary: 'accept-encoding, accept',
+115 silly get     'x-amz-meta-rev': '174-d8b3238dbfc423d67528264991def208',
+115 silly get     server: 'cloudflare' } ]
+116 verbose etag https://registry.npmjs.org/esprima from cache
+117 verbose get saving esprima to /home/vagrant/.npm/registry.npmjs.org/esprima/.cache.json
+118 verbose correctMkdir /home/vagrant/.npm correctMkdir not in flight; initializing
+119 silly resolveWithNewModule esprima@2.7.3 checking installable status
+120 silly cache add args [ 'esprima@2.7.x', null ]
+121 verbose cache add spec esprima@2.7.x
+122 silly cache add parsed spec Result {
+122 silly cache add   raw: 'esprima@2.7.x',
+122 silly cache add   scope: null,
+122 silly cache add   escapedName: 'esprima',
+122 silly cache add   name: 'esprima',
+122 silly cache add   rawSpec: '2.7.x',
+122 silly cache add   spec: '>=2.7.0 <2.8.0',
+122 silly cache add   type: 'range' }
+123 silly addNamed esprima@>=2.7.0 <2.8.0
+124 verbose addNamed ">=2.7.0 <2.8.0" is a valid semver range for esprima
+125 silly addNameRange { name: 'esprima', range: '>=2.7.0 <2.8.0', hasData: false }
+126 silly mapToRegistry name esprima
+127 silly mapToRegistry using default registry
+128 silly mapToRegistry registry https://registry.npmjs.org/
+129 silly mapToRegistry data Result {
+129 silly mapToRegistry   raw: 'esprima',
+129 silly mapToRegistry   scope: null,
+129 silly mapToRegistry   escapedName: 'esprima',
+129 silly mapToRegistry   name: 'esprima',
+129 silly mapToRegistry   rawSpec: '',
+129 silly mapToRegistry   spec: 'latest',
+129 silly mapToRegistry   type: 'tag' }
+130 silly mapToRegistry uri https://registry.npmjs.org/esprima
+131 verbose addNameRange registry:https://registry.npmjs.org/esprima not in flight; fetching
+132 verbose get https://registry.npmjs.org/esprima not expired, no request
+133 silly addNameRange number 2 { name: 'esprima', range: '>=2.7.0 <2.8.0', hasData: true }
+134 silly addNameRange versions [ 'esprima',
+134 silly addNameRange   [ '0.7.0',
+134 silly addNameRange     '0.8.0',
+134 silly addNameRange     '0.8.1',
+134 silly addNameRange     '0.8.2',
+134 silly addNameRange     '0.9.0',
+134 silly addNameRange     '0.9.1',
+134 silly addNameRange     '0.9.2',
+134 silly addNameRange     '0.9.3',
+134 silly addNameRange     '0.9.4',
+134 silly addNameRange     '0.9.5',
+134 silly addNameRange     '0.9.6',
+134 silly addNameRange     '0.9.7',
+134 silly addNameRange     '0.9.8',
+134 silly addNameRange     '0.9.9',
+134 silly addNameRange     '1.0.0',
+134 silly addNameRange     '1.0.1',
+134 silly addNameRange     '1.0.2',
+134 silly addNameRange     '1.0.3',
+134 silly addNameRange     '1.0.4',
+134 silly addNameRange     '1.1.0',
+134 silly addNameRange     '1.1.1',
+134 silly addNameRange     '1.2.0',
+134 silly addNameRange     '1.2.1',
+134 silly addNameRange     '1.2.2',
+134 silly addNameRange     '1.2.3',
+134 silly addNameRange     '1.2.4',
+134 silly addNameRange     '2.0.0',
+134 silly addNameRange     '1.2.5',
+134 silly addNameRange     '2.1.0',
+134 silly addNameRange     '2.2.0',
+134 silly addNameRange     '2.3.0',
+134 silly addNameRange     '2.4.0',
+134 silly addNameRange     '2.4.1',
+134 silly addNameRange     '2.5.0',
+134 silly addNameRange     '2.6.0',
+134 silly addNameRange     '2.7.0',
+134 silly addNameRange     '2.7.1',
+134 silly addNameRange     '2.7.2',
+134 silly addNameRange     '2.7.3',
+134 silly addNameRange     '3.0.0',
+134 silly addNameRange     '3.1.0',
+134 silly addNameRange     '3.1.1',
+134 silly addNameRange     '3.1.2',
+134 silly addNameRange     '3.1.3',
+134 silly addNameRange     '4.0.0',
+134 silly addNameRange     '4.0.1' ] ]
+135 silly addNamed esprima@2.7.3
+136 verbose addNamed "2.7.3" is a plain semver version for esprima
+137 silly cache afterAdd esprima@2.7.3
+138 verbose afterAdd /home/vagrant/.npm/esprima/2.7.3/package/package.json not in flight; writing
+139 verbose correctMkdir /home/vagrant/.npm correctMkdir not in flight; initializing
+140 verbose afterAdd /home/vagrant/.npm/esprima/2.7.3/package/package.json written
+141 silly loadAllDepsIntoIdealTree Finishing
+142 silly loadIdealTree Finishing
+143 silly currentTree solution-code@1.0.0
+143 silly currentTree ├── abbrev@1.0.9
+143 silly currentTree ├── accepts@1.3.7
+143 silly currentTree ├── amdefine@1.0.1
+143 silly currentTree ├── ansi-regex@3.0.0
+143 silly currentTree ├── argparse@1.0.10
+143 silly currentTree ├── array-flatten@1.1.1
+143 silly currentTree ├── assertion-error@1.1.0
+143 silly currentTree ├── async@1.5.2
+143 silly currentTree ├── balanced-match@1.0.0
+143 silly currentTree ├── bluebird@3.5.0
+143 silly currentTree ├── body-parser@1.19.0
+143 silly currentTree ├── brace-expansion@1.1.11
+143 silly currentTree ├── browser-stdout@1.3.0
+143 silly currentTree ├── bson@1.0.9
+143 silly currentTree ├── buffer-shims@1.0.0
+143 silly currentTree ├── bytes@3.1.0
+143 silly currentTree ├── chai-http@3.0.0
+143 silly currentTree ├── chai-jquery@2.1.0
+143 silly currentTree ├── chai@3.5.0
+143 silly currentTree ├── charenc@0.0.2
+143 silly currentTree ├── combined-stream@1.0.8
+143 silly currentTree ├── commander@2.20.0
+143 silly currentTree ├── component-emitter@1.3.0
+143 silly currentTree ├── concat-map@0.0.1
+143 silly currentTree ├── content-disposition@0.5.3
+143 silly currentTree ├── content-type@1.0.4
+143 silly currentTree ├── cookie-signature@1.0.6
+143 silly currentTree ├── cookie@0.4.0
+143 silly currentTree ├── cookiejar@2.0.6
+143 silly currentTree ├── core-util-is@1.0.2
+143 silly currentTree ├── crypt@0.0.2
+143 silly currentTree ├── debug@2.6.9
+143 silly currentTree ├─┬ deep-eql@0.1.3
+143 silly currentTree │ └── type-detect@0.1.1
+143 silly currentTree ├── deep-is@0.1.3
+143 silly currentTree ├── delayed-stream@1.0.0
+143 silly currentTree ├── depd@1.1.2
+143 silly currentTree ├── destroy@1.0.4
+143 silly currentTree ├── diff@3.2.0
+143 silly currentTree ├── ee-first@1.1.1
+143 silly currentTree ├── ejs@2.7.1
+143 silly currentTree ├── encodeurl@1.0.2
+143 silly currentTree ├── errno@0.1.7
+143 silly currentTree ├── es6-promise@3.2.1
+143 silly currentTree ├── escape-html@1.0.3
+143 silly currentTree ├── escape-string-regexp@1.0.5
+143 silly currentTree ├── escodegen@1.8.1
+143 silly currentTree ├── estraverse@1.9.3
+143 silly currentTree ├── esutils@2.0.3
+143 silly currentTree ├── etag@1.8.1
+143 silly currentTree ├── express@4.17.1
+143 silly currentTree ├── extend@3.0.2
+143 silly currentTree ├── faker@4.1.0
+143 silly currentTree ├── fast-levenshtein@2.0.6
+143 silly currentTree ├── finalhandler@1.1.2
+143 silly currentTree ├── form-data@1.0.0-rc4
+143 silly currentTree ├── formidable@1.2.1
+143 silly currentTree ├── forwarded@0.1.2
+143 silly currentTree ├── fresh@0.5.2
+143 silly currentTree ├── fs.realpath@1.0.0
+143 silly currentTree ├── glob@5.0.15
+143 silly currentTree ├── graceful-readlink@1.0.1
+143 silly currentTree ├── growl@1.9.2
+143 silly currentTree ├─┬ handlebars@4.4.3
+143 silly currentTree │ └── source-map@0.6.1
+143 silly currentTree ├── has-flag@1.0.0
+143 silly currentTree ├── he@1.1.1
+143 silly currentTree ├── hooks-fixed@2.0.2
+143 silly currentTree ├── http-errors@1.7.2
+143 silly currentTree ├── iconv-lite@0.4.24
+143 silly currentTree ├── inflight@1.0.6
+143 silly currentTree ├── inherits@2.0.3
+143 silly currentTree ├── interpret@1.2.0
+143 silly currentTree ├── ip-regex@1.0.3
+143 silly currentTree ├── ipaddr.js@1.9.0
+143 silly currentTree ├── is-buffer@1.1.6
+143 silly currentTree ├── is-ip@1.0.0
+143 silly currentTree ├── isarray@1.0.0
+143 silly currentTree ├── isexe@2.0.0
+143 silly currentTree ├─┬ js-yaml@3.13.1
+143 silly currentTree │ └── esprima@4.0.1
+143 silly currentTree ├── json2mongo@2.0.0
+143 silly currentTree ├── json3@3.3.2
+143 silly currentTree ├── kareem@1.5.0
+143 silly currentTree ├── levn@0.3.0
+143 silly currentTree ├── lodash._baseassign@3.2.0
+143 silly currentTree ├── lodash._basecopy@3.0.1
+143 silly currentTree ├── lodash._basecreate@3.0.3
+143 silly currentTree ├── lodash._getnative@3.9.1
+143 silly currentTree ├── lodash._isiterateecall@3.0.9
+143 silly currentTree ├── lodash.create@3.1.1
+143 silly currentTree ├── lodash.get@4.4.2
+143 silly currentTree ├── lodash.isarguments@3.1.0
+143 silly currentTree ├── lodash.isarray@3.0.4
+143 silly currentTree ├── lodash.keys@3.1.2
+143 silly currentTree ├── lodash@4.17.15
+143 silly currentTree ├── md5@2.2.1
+143 silly currentTree ├── media-typer@0.3.0
+143 silly currentTree ├── merge-descriptors@1.0.1
+143 silly currentTree ├── methods@1.1.2
+143 silly currentTree ├── mime-db@1.40.0
+143 silly currentTree ├── mime-types@2.1.24
+143 silly currentTree ├── mime@1.6.0
+143 silly currentTree ├── minimatch@3.0.4
+143 silly currentTree ├── minimist@0.0.10
+143 silly currentTree ├─┬ mkdirp@0.5.1
+143 silly currentTree │ └── minimist@0.0.8
+143 silly currentTree ├── mocha-junit-reporter@1.23.1
+143 silly currentTree ├─┬ mocha@3.5.3
+143 silly currentTree │ ├── commander@2.9.0
+143 silly currentTree │ ├── debug@2.6.8
+143 silly currentTree │ ├── glob@7.1.1
+143 silly currentTree │ └── supports-color@3.1.2
+143 silly currentTree ├── mongodb-core@2.1.18
+143 silly currentTree ├── mongodb@2.2.34
+143 silly currentTree ├─┬ mongoose@4.13.19
+143 silly currentTree │ └── async@2.6.0
+143 silly currentTree ├── mpath@0.5.1
+143 silly currentTree ├── mpromise@0.5.5
+143 silly currentTree ├─┬ mquery@2.3.3
+143 silly currentTree │ └── sliced@0.0.5
+143 silly currentTree ├── ms@2.0.0
+143 silly currentTree ├── muri@1.3.0
+143 silly currentTree ├── negotiator@0.6.2
+143 silly currentTree ├── neo-async@2.6.1
+143 silly currentTree ├─┬ node-mongo-seeds@2.3.2
+143 silly currentTree │ └── lodash@3.10.1
+143 silly currentTree ├── nopt@3.0.6
+143 silly currentTree ├── npm-path@2.0.4
+143 silly currentTree ├── npm-which@3.0.1
+143 silly currentTree ├── on-finished@2.3.0
+143 silly currentTree ├── once@1.4.0
+143 silly currentTree ├─┬ optimist@0.6.1
+143 silly currentTree │ └── wordwrap@0.0.3
+143 silly currentTree ├── optionator@0.8.2
+143 silly currentTree ├── parseurl@1.3.3
+143 silly currentTree ├── path-is-absolute@1.0.1
+143 silly currentTree ├── path-to-regexp@0.1.7
+143 silly currentTree ├── prelude-ls@1.1.2
+143 silly currentTree ├── process-nextick-args@1.0.7
+143 silly currentTree ├── proxy-addr@2.0.5
+143 silly currentTree ├── prr@1.0.1
+143 silly currentTree ├── q@1.5.1
+143 silly currentTree ├── qs@6.7.0
+143 silly currentTree ├── range-parser@1.2.1
+143 silly currentTree ├── raw-body@2.4.0
+143 silly currentTree ├── readable-stream@2.2.7
+143 silly currentTree ├── rechoir@0.6.2
+143 silly currentTree ├── regexp-clone@0.0.1
+143 silly currentTree ├── require_optional@1.0.1
+143 silly currentTree ├── resolve-from@2.0.0
+143 silly currentTree ├── resolve@1.1.7
+143 silly currentTree ├── safe-buffer@5.1.2
+143 silly currentTree ├── safer-buffer@2.1.2
+143 silly currentTree ├── semver@5.7.1
+143 silly currentTree ├─┬ send@0.17.1
+143 silly currentTree │ └── ms@2.1.1
+143 silly currentTree ├── serve-static@1.14.1
+143 silly currentTree ├── setprototypeof@1.1.1
+143 silly currentTree ├── shell-escape@0.2.0
+143 silly currentTree ├─┬ shelljs@0.7.8
+143 silly currentTree │ └── glob@7.1.4
+143 silly currentTree ├── sliced@1.0.1
+143 silly currentTree ├── source-map@0.2.0
+143 silly currentTree ├── spec-xunit-file@0.0.1-3
+143 silly currentTree ├── sprintf-js@1.0.3
+143 silly currentTree ├── statuses@1.5.0
+143 silly currentTree ├── string_decoder@1.0.3
+143 silly currentTree ├── strip-ansi@4.0.0
+143 silly currentTree ├── superagent@2.3.0
+143 silly currentTree ├── supports-color@3.2.3
+143 silly currentTree ├── toidentifier@1.0.0
+143 silly currentTree ├── type-check@0.3.2
+143 silly currentTree ├── type-detect@1.0.0
+143 silly currentTree ├── type-is@1.6.18
+143 silly currentTree ├─┬ uglify-js@3.6.1
+143 silly currentTree │ └── source-map@0.6.1
+143 silly currentTree ├── unpipe@1.0.0
+143 silly currentTree ├── util-deprecate@1.0.2
+143 silly currentTree ├── utils-merge@1.0.1
+143 silly currentTree ├── vary@1.1.2
+143 silly currentTree ├── which@1.3.1
+143 silly currentTree ├── wordwrap@1.0.0
+143 silly currentTree ├── wrappy@1.0.2
+143 silly currentTree └── xml@1.0.1
+144 silly idealTree solution-code@1.0.0
+144 silly idealTree ├── abbrev@1.0.9
+144 silly idealTree ├── accepts@1.3.7
+144 silly idealTree ├── amdefine@1.0.1
+144 silly idealTree ├── ansi-regex@3.0.0
+144 silly idealTree ├── argparse@1.0.10
+144 silly idealTree ├── array-flatten@1.1.1
+144 silly idealTree ├── assertion-error@1.1.0
+144 silly idealTree ├── async@1.5.2
+144 silly idealTree ├── balanced-match@1.0.0
+144 silly idealTree ├── bluebird@3.5.0
+144 silly idealTree ├── body-parser@1.19.0
+144 silly idealTree ├── brace-expansion@1.1.11
+144 silly idealTree ├── browser-stdout@1.3.0
+144 silly idealTree ├── bson@1.0.9
+144 silly idealTree ├── buffer-shims@1.0.0
+144 silly idealTree ├── bytes@3.1.0
+144 silly idealTree ├── chai-http@3.0.0
+144 silly idealTree ├── chai-jquery@2.1.0
+144 silly idealTree ├── chai@3.5.0
+144 silly idealTree ├── charenc@0.0.2
+144 silly idealTree ├── combined-stream@1.0.8
+144 silly idealTree ├── commander@2.20.0
+144 silly idealTree ├── component-emitter@1.3.0
+144 silly idealTree ├── concat-map@0.0.1
+144 silly idealTree ├── content-disposition@0.5.3
+144 silly idealTree ├── content-type@1.0.4
+144 silly idealTree ├── cookie-signature@1.0.6
+144 silly idealTree ├── cookie@0.4.0
+144 silly idealTree ├── cookiejar@2.0.6
+144 silly idealTree ├── core-util-is@1.0.2
+144 silly idealTree ├── crypt@0.0.2
+144 silly idealTree ├── debug@2.6.9
+144 silly idealTree ├─┬ deep-eql@0.1.3
+144 silly idealTree │ └── type-detect@0.1.1
+144 silly idealTree ├── deep-is@0.1.3
+144 silly idealTree ├── delayed-stream@1.0.0
+144 silly idealTree ├── depd@1.1.2
+144 silly idealTree ├── destroy@1.0.4
+144 silly idealTree ├── diff@3.2.0
+144 silly idealTree ├── ee-first@1.1.1
+144 silly idealTree ├── ejs@2.7.1
+144 silly idealTree ├── encodeurl@1.0.2
+144 silly idealTree ├── errno@0.1.7
+144 silly idealTree ├── es6-promise@3.2.1
+144 silly idealTree ├── escape-html@1.0.3
+144 silly idealTree ├── escape-string-regexp@1.0.5
+144 silly idealTree ├── escodegen@1.8.1
+144 silly idealTree ├── esprima@2.7.3
+144 silly idealTree ├── estraverse@1.9.3
+144 silly idealTree ├── esutils@2.0.3
+144 silly idealTree ├── etag@1.8.1
+144 silly idealTree ├── express@4.17.1
+144 silly idealTree ├── extend@3.0.2
+144 silly idealTree ├── faker@4.1.0
+144 silly idealTree ├── fast-levenshtein@2.0.6
+144 silly idealTree ├── finalhandler@1.1.2
+144 silly idealTree ├── form-data@1.0.0-rc4
+144 silly idealTree ├── formidable@1.2.1
+144 silly idealTree ├── forwarded@0.1.2
+144 silly idealTree ├── fresh@0.5.2
+144 silly idealTree ├── fs.realpath@1.0.0
+144 silly idealTree ├── glob@5.0.15
+144 silly idealTree ├── graceful-readlink@1.0.1
+144 silly idealTree ├── growl@1.9.2
+144 silly idealTree ├─┬ handlebars@4.4.3
+144 silly idealTree │ └── source-map@0.6.1
+144 silly idealTree ├── has-flag@1.0.0
+144 silly idealTree ├── he@1.1.1
+144 silly idealTree ├── hooks-fixed@2.0.2
+144 silly idealTree ├── http-errors@1.7.2
+144 silly idealTree ├── iconv-lite@0.4.24
+144 silly idealTree ├── inflight@1.0.6
+144 silly idealTree ├── inherits@2.0.3
+144 silly idealTree ├── interpret@1.2.0
+144 silly idealTree ├── ip-regex@1.0.3
+144 silly idealTree ├── ipaddr.js@1.9.0
+144 silly idealTree ├── is-buffer@1.1.6
+144 silly idealTree ├── is-ip@1.0.0
+144 silly idealTree ├── isarray@1.0.0
+144 silly idealTree ├── isexe@2.0.0
+144 silly idealTree ├── istanbul@0.4.5
+144 silly idealTree ├── jenkins-mocha@3.0.4
+144 silly idealTree ├─┬ js-yaml@3.13.1
+144 silly idealTree │ └── esprima@4.0.1
+144 silly idealTree ├── json2mongo@2.0.0
+144 silly idealTree ├── json3@3.3.2
+144 silly idealTree ├── kareem@1.5.0
+144 silly idealTree ├── levn@0.3.0
+144 silly idealTree ├── lodash._baseassign@3.2.0
+144 silly idealTree ├── lodash._basecopy@3.0.1
+144 silly idealTree ├── lodash._basecreate@3.0.3
+144 silly idealTree ├── lodash._getnative@3.9.1
+144 silly idealTree ├── lodash._isiterateecall@3.0.9
+144 silly idealTree ├── lodash.create@3.1.1
+144 silly idealTree ├── lodash.get@4.4.2
+144 silly idealTree ├── lodash.isarguments@3.1.0
+144 silly idealTree ├── lodash.isarray@3.0.4
+144 silly idealTree ├── lodash.keys@3.1.2
+144 silly idealTree ├── lodash@4.17.15
+144 silly idealTree ├── md5@2.2.1
+144 silly idealTree ├── media-typer@0.3.0
+144 silly idealTree ├── merge-descriptors@1.0.1
+144 silly idealTree ├── methods@1.1.2
+144 silly idealTree ├── mime-db@1.40.0
+144 silly idealTree ├── mime-types@2.1.24
+144 silly idealTree ├── mime@1.6.0
+144 silly idealTree ├── minimatch@3.0.4
+144 silly idealTree ├── minimist@0.0.10
+144 silly idealTree ├─┬ mkdirp@0.5.1
+144 silly idealTree │ └── minimist@0.0.8
+144 silly idealTree ├── mocha-junit-reporter@1.23.1
+144 silly idealTree ├─┬ mocha@3.5.3
+144 silly idealTree │ ├── commander@2.9.0
+144 silly idealTree │ ├── debug@2.6.8
+144 silly idealTree │ ├── glob@7.1.1
+144 silly idealTree │ └── supports-color@3.1.2
+144 silly idealTree ├── mongodb-core@2.1.18
+144 silly idealTree ├── mongodb@2.2.34
+144 silly idealTree ├─┬ mongoose@4.13.19
+144 silly idealTree │ └── async@2.6.0
+144 silly idealTree ├── mpath@0.5.1
+144 silly idealTree ├── mpromise@0.5.5
+144 silly idealTree ├─┬ mquery@2.3.3
+144 silly idealTree │ └── sliced@0.0.5
+144 silly idealTree ├── ms@2.0.0
+144 silly idealTree ├── muri@1.3.0
+144 silly idealTree ├── negotiator@0.6.2
+144 silly idealTree ├── neo-async@2.6.1
+144 silly idealTree ├─┬ node-mongo-seeds@2.3.2
+144 silly idealTree │ └── lodash@3.10.1
+144 silly idealTree ├── nopt@3.0.6
+144 silly idealTree ├── npm-path@2.0.4
+144 silly idealTree ├── npm-which@3.0.1
+144 silly idealTree ├── on-finished@2.3.0
+144 silly idealTree ├── once@1.4.0
+144 silly idealTree ├─┬ optimist@0.6.1
+144 silly idealTree │ └── wordwrap@0.0.3
+144 silly idealTree ├── optionator@0.8.2
+144 silly idealTree ├── parseurl@1.3.3
+144 silly idealTree ├── path-is-absolute@1.0.1
+144 silly idealTree ├── path-to-regexp@0.1.7
+144 silly idealTree ├── prelude-ls@1.1.2
+144 silly idealTree ├── process-nextick-args@1.0.7
+144 silly idealTree ├── proxy-addr@2.0.5
+144 silly idealTree ├── prr@1.0.1
+144 silly idealTree ├── q@1.5.1
+144 silly idealTree ├── qs@6.7.0
+144 silly idealTree ├── range-parser@1.2.1
+144 silly idealTree ├── raw-body@2.4.0
+144 silly idealTree ├── readable-stream@2.2.7
+144 silly idealTree ├── rechoir@0.6.2
+144 silly idealTree ├── regexp-clone@0.0.1
+144 silly idealTree ├── require_optional@1.0.1
+144 silly idealTree ├── resolve-from@2.0.0
+144 silly idealTree ├── resolve@1.1.7
+144 silly idealTree ├── safe-buffer@5.1.2
+144 silly idealTree ├── safer-buffer@2.1.2
+144 silly idealTree ├── semver@5.7.1
+144 silly idealTree ├─┬ send@0.17.1
+144 silly idealTree │ └── ms@2.1.1
+144 silly idealTree ├── serve-static@1.14.1
+144 silly idealTree ├── setprototypeof@1.1.1
+144 silly idealTree ├── shell-escape@0.2.0
+144 silly idealTree ├─┬ shelljs@0.7.8
+144 silly idealTree │ └── glob@7.1.4
+144 silly idealTree ├── sliced@1.0.1
+144 silly idealTree ├── source-map@0.2.0
+144 silly idealTree ├── spec-xunit-file@0.0.1-3
+144 silly idealTree ├── sprintf-js@1.0.3
+144 silly idealTree ├── statuses@1.5.0
+144 silly idealTree ├── string_decoder@1.0.3
+144 silly idealTree ├── strip-ansi@4.0.0
+144 silly idealTree ├── superagent@2.3.0
+144 silly idealTree ├── supports-color@3.2.3
+144 silly idealTree ├── toidentifier@1.0.0
+144 silly idealTree ├── type-check@0.3.2
+144 silly idealTree ├── type-detect@1.0.0
+144 silly idealTree ├── type-is@1.6.18
+144 silly idealTree ├─┬ uglify-js@3.6.1
+144 silly idealTree │ └── source-map@0.6.1
+144 silly idealTree ├── unpipe@1.0.0
+144 silly idealTree ├── util-deprecate@1.0.2
+144 silly idealTree ├── utils-merge@1.0.1
+144 silly idealTree ├── vary@1.1.2
+144 silly idealTree ├── which@1.3.1
+144 silly idealTree ├── wordwrap@1.0.0
+144 silly idealTree ├── wrappy@1.0.2
+144 silly idealTree └── xml@1.0.1
+145 silly generateActionsToTake Starting
+146 silly install generateActionsToTake
+147 silly generateActionsToTake Finishing
+148 silly diffTrees action count 3
+149 silly diffTrees add esprima@2.7.3
+150 silly diffTrees add istanbul@0.4.5
+151 silly diffTrees add jenkins-mocha@3.0.4
+152 silly decomposeActions action count 24
+153 silly decomposeActions fetch esprima@2.7.3
+154 silly decomposeActions extract esprima@2.7.3
+155 silly decomposeActions test esprima@2.7.3
+156 silly decomposeActions preinstall esprima@2.7.3
+157 silly decomposeActions build esprima@2.7.3
+158 silly decomposeActions install esprima@2.7.3
+159 silly decomposeActions postinstall esprima@2.7.3
+160 silly decomposeActions finalize esprima@2.7.3
+161 silly decomposeActions fetch istanbul@0.4.5
+162 silly decomposeActions extract istanbul@0.4.5
+163 silly decomposeActions test istanbul@0.4.5
+164 silly decomposeActions preinstall istanbul@0.4.5
+165 silly decomposeActions build istanbul@0.4.5
+166 silly decomposeActions install istanbul@0.4.5
+167 silly decomposeActions postinstall istanbul@0.4.5
+168 silly decomposeActions finalize istanbul@0.4.5
+169 silly decomposeActions fetch jenkins-mocha@3.0.4
+170 silly decomposeActions extract jenkins-mocha@3.0.4
+171 silly decomposeActions test jenkins-mocha@3.0.4
+172 silly decomposeActions preinstall jenkins-mocha@3.0.4
+173 silly decomposeActions build jenkins-mocha@3.0.4
+174 silly decomposeActions install jenkins-mocha@3.0.4
+175 silly decomposeActions postinstall jenkins-mocha@3.0.4
+176 silly decomposeActions finalize jenkins-mocha@3.0.4
+177 silly runTopLevelLifecycles Starting
+178 silly install runPreinstallTopLevelLifecycles
+179 silly preinstall solution-code@1.0.0 /vagrant/.vagrant/app/solution-code-5e2e3823
+180 info lifecycle solution-code@1.0.0~preinstall: solution-code@1.0.0
+181 silly lifecycle solution-code@1.0.0~preinstall: no script for preinstall, continuing
+182 silly executeActions Starting
+183 silly install executeActions
+184 silly doSerial global-install 0
+185 silly doParallel fetch 3
+186 verbose correctMkdir /home/vagrant/.npm/_locks correctMkdir not in flight; initializing
+187 verbose lock using /home/vagrant/.npm/_locks/staging-aec038e568599c97.lock for /vagrant/.vagrant/app/node_modules/.staging
+188 silly doParallel extract 3
+189 silly extract esprima@2.7.3
+190 silly extract istanbul@0.4.5
+191 silly extract jenkins-mocha@3.0.4
+192 verbose unbuild node_modules/.staging/esprima-b3851668
+193 verbose unbuild node_modules/.staging/istanbul-a2bef095
+194 verbose unbuild node_modules/.staging/jenkins-mocha-7949ea32
+195 silly gentlyRm /vagrant/.vagrant/app/node_modules/.staging/esprima-b3851668 is being purged from base /vagrant/.vagrant/app
+196 verbose gentlyRm don't care about contents; nuking /vagrant/.vagrant/app/node_modules/.staging/esprima-b3851668
+197 silly gentlyRm /vagrant/.vagrant/app/node_modules/.staging/istanbul-a2bef095 is being purged from base /vagrant/.vagrant/app
+198 verbose gentlyRm don't care about contents; nuking /vagrant/.vagrant/app/node_modules/.staging/istanbul-a2bef095
+199 silly gentlyRm /vagrant/.vagrant/app/node_modules/.staging/jenkins-mocha-7949ea32 is being purged from base /vagrant/.vagrant/app
+200 verbose gentlyRm don't care about contents; nuking /vagrant/.vagrant/app/node_modules/.staging/jenkins-mocha-7949ea32
+201 verbose tar unpack /home/vagrant/.npm/esprima/2.7.3/package.tgz
+202 verbose tar unpacking to /vagrant/.vagrant/app/node_modules/.staging/esprima-b3851668
+203 silly gentlyRm /vagrant/.vagrant/app/node_modules/.staging/esprima-b3851668 is being purged
+204 verbose gentlyRm don't care about contents; nuking /vagrant/.vagrant/app/node_modules/.staging/esprima-b3851668
+205 verbose tar unpack /home/vagrant/.npm/istanbul/0.4.5/package.tgz
+206 verbose tar unpacking to /vagrant/.vagrant/app/node_modules/.staging/istanbul-a2bef095
+207 silly gentlyRm /vagrant/.vagrant/app/node_modules/.staging/istanbul-a2bef095 is being purged
+208 verbose gentlyRm don't care about contents; nuking /vagrant/.vagrant/app/node_modules/.staging/istanbul-a2bef095
+209 verbose tar unpack /home/vagrant/.npm/jenkins-mocha/3.0.4/package.tgz
+210 verbose tar unpacking to /vagrant/.vagrant/app/node_modules/.staging/jenkins-mocha-7949ea32
+211 silly gentlyRm /vagrant/.vagrant/app/node_modules/.staging/jenkins-mocha-7949ea32 is being purged
+212 verbose gentlyRm don't care about contents; nuking /vagrant/.vagrant/app/node_modules/.staging/jenkins-mocha-7949ea32
+213 silly gunzTarPerm modes [ '775', '664' ]
+214 silly gunzTarPerm modes [ '775', '664' ]
+215 silly gunzTarPerm modes [ '775', '664' ]
+216 silly gunzTarPerm extractEntry package.json
+217 silly gunzTarPerm modified mode [ 'package.json', 420, 436 ]
+218 silly gunzTarPerm extractEntry package.json
+219 silly gunzTarPerm modified mode [ 'package.json', 420, 436 ]
+220 silly gunzTarPerm extractEntry package.json
+221 silly gunzTarPerm modified mode [ 'package.json', 420, 436 ]
+222 silly gunzTarPerm extractEntry .npmignore
+223 silly gunzTarPerm modified mode [ '.npmignore', 420, 436 ]
+224 silly gunzTarPerm extractEntry README.md
+225 silly gunzTarPerm modified mode [ 'README.md', 420, 436 ]
+226 silly gunzTarPerm extractEntry README.md
+227 silly gunzTarPerm modified mode [ 'README.md', 420, 436 ]
+228 silly gunzTarPerm extractEntry esprima.js
+229 silly gunzTarPerm modified mode [ 'esprima.js', 420, 436 ]
+230 silly gunzTarPerm extractEntry README.md
+231 silly gunzTarPerm modified mode [ 'README.md', 420, 436 ]
+232 silly gunzTarPerm extractEntry LICENSE
+233 silly gunzTarPerm modified mode [ 'LICENSE', 420, 436 ]
+234 silly gunzTarPerm extractEntry LICENSE
+235 silly gunzTarPerm modified mode [ 'LICENSE', 420, 436 ]
+236 silly gunzTarPerm extractEntry ci/coverage.sh
+237 silly gunzTarPerm modified mode [ 'ci/coverage.sh', 493, 509 ]
+238 silly gunzTarPerm extractEntry ChangeLog
+239 silly gunzTarPerm modified mode [ 'ChangeLog', 420, 436 ]
+240 silly gunzTarPerm extractEntry index.js
+241 silly gunzTarPerm modified mode [ 'index.js', 420, 436 ]
+242 silly gunzTarPerm extractEntry CHANGELOG.md
+243 silly gunzTarPerm modified mode [ 'CHANGELOG.md', 420, 436 ]
+244 silly gunzTarPerm extractEntry LICENSE.BSD
+245 silly gunzTarPerm modified mode [ 'LICENSE.BSD', 420, 436 ]
+246 silly gunzTarPerm extractEntry bin/esparse.js
+247 silly gunzTarPerm modified mode [ 'bin/esparse.js', 420, 436 ]
+248 silly gunzTarPerm extractEntry bin/esvalidate.js
+249 silly gunzTarPerm modified mode [ 'bin/esvalidate.js', 493, 509 ]
+250 silly gunzTarPerm extractEntry ci/publish.sh
+251 silly gunzTarPerm modified mode [ 'ci/publish.sh', 493, 509 ]
+252 silly gunzTarPerm extractEntry bin/jenkins.js
+253 silly gunzTarPerm modified mode [ 'bin/jenkins.js', 493, 509 ]
+254 silly gunzTarPerm extractEntry lib/instrumenter.js
+255 silly gunzTarPerm modified mode [ 'lib/instrumenter.js', 420, 436 ]
+256 silly gunzTarPerm extractEntry lib/collector.js
+257 silly gunzTarPerm modified mode [ 'lib/collector.js', 420, 436 ]
+258 silly gunzTarPerm extractEntry lib/jenkins.js
+259 silly gunzTarPerm modified mode [ 'lib/jenkins.js', 420, 436 ]
+260 silly gunzTarPerm extractEntry screwdriver.yaml
+261 silly gunzTarPerm modified mode [ 'screwdriver.yaml', 420, 436 ]
+262 silly gunzTarPerm extractEntry lib/config.js
+263 silly gunzTarPerm modified mode [ 'lib/config.js', 420, 436 ]
+264 silly gunzTarPerm extractEntry lib/hook.js
+265 silly gunzTarPerm modified mode [ 'lib/hook.js', 420, 436 ]
+266 silly gunzTarPerm extractEntry test/jenkins.test.js
+267 silly gunzTarPerm modified mode [ 'test/jenkins.test.js', 420, 436 ]
+268 silly gunzTarPerm extractEntry lib/cli.js
+269 silly gunzTarPerm modified mode [ 'lib/cli.js', 493, 509 ]
+270 silly gunzTarPerm extractEntry lib/object-utils.js
+271 silly gunzTarPerm modified mode [ 'lib/object-utils.js', 420, 436 ]
+272 silly gunzTarPerm extractEntry lib/register-plugins.js
+273 silly gunzTarPerm modified mode [ 'lib/register-plugins.js', 420, 436 ]
+274 silly gunzTarPerm extractEntry lib/reporter.js
+275 silly gunzTarPerm modified mode [ 'lib/reporter.js', 420, 436 ]
+276 silly gunzTarPerm extractEntry lib/assets/sorter.js
+277 silly gunzTarPerm modified mode [ 'lib/assets/sorter.js', 420, 436 ]
+278 silly gunzTarPerm extractEntry lib/assets/base.css
+279 silly gunzTarPerm modified mode [ 'lib/assets/base.css', 420, 436 ]
+280 silly gunzTarPerm extractEntry lib/assets/sort-arrow-sprite.png
+281 silly gunzTarPerm modified mode [ 'lib/assets/sort-arrow-sprite.png', 420, 436 ]
+282 silly gunzTarPerm extractEntry lib/assets/vendor/prettify.js
+283 silly gunzTarPerm modified mode [ 'lib/assets/vendor/prettify.js', 420, 436 ]
+284 silly gunzTarPerm extractEntry lib/assets/vendor/prettify.css
+285 silly gunzTarPerm modified mode [ 'lib/assets/vendor/prettify.css', 420, 436 ]
+286 silly gunzTarPerm extractEntry lib/report/clover.js
+287 silly gunzTarPerm modified mode [ 'lib/report/clover.js', 420, 436 ]
+288 silly gunzTarPerm extractEntry lib/report/html.js
+289 silly gunzTarPerm modified mode [ 'lib/report/html.js', 420, 436 ]
+290 silly gunzTarPerm extractEntry lib/report/index.js
+291 silly gunzTarPerm modified mode [ 'lib/report/index.js', 420, 436 ]
+292 silly gunzTarPerm extractEntry lib/report/json-summary.js
+293 silly gunzTarPerm modified mode [ 'lib/report/json-summary.js', 420, 436 ]
+294 silly gunzTarPerm extractEntry lib/report/text-summary.js
+295 silly gunzTarPerm modified mode [ 'lib/report/text-summary.js', 420, 436 ]
+296 silly gunzTarPerm extractEntry lib/report/cobertura.js
+297 silly gunzTarPerm modified mode [ 'lib/report/cobertura.js', 420, 436 ]
+298 silly gentlyRm /vagrant/.vagrant/app/node_modules/.staging/esprima-b3851668/node_modules is being purged
+299 verbose gentlyRm don't care about contents; nuking /vagrant/.vagrant/app/node_modules/.staging/esprima-b3851668/node_modules
+300 silly gunzTarPerm extractEntry lib/report/lcovonly.js
+301 silly gunzTarPerm modified mode [ 'lib/report/lcovonly.js', 420, 436 ]
+302 silly gunzTarPerm extractEntry lib/report/none.js
+303 silly gunzTarPerm modified mode [ 'lib/report/none.js', 420, 436 ]
+304 silly gentlyRm /vagrant/.vagrant/app/node_modules/.staging/jenkins-mocha-7949ea32/node_modules is being purged
+305 verbose gentlyRm don't care about contents; nuking /vagrant/.vagrant/app/node_modules/.staging/jenkins-mocha-7949ea32/node_modules
+306 silly gunzTarPerm extractEntry lib/report/teamcity.js
+307 silly gunzTarPerm modified mode [ 'lib/report/teamcity.js', 420, 436 ]
+308 silly gunzTarPerm extractEntry lib/report/text-lcov.js
+309 silly gunzTarPerm modified mode [ 'lib/report/text-lcov.js', 420, 436 ]
+310 silly gunzTarPerm extractEntry lib/report/json.js
+311 silly gunzTarPerm modified mode [ 'lib/report/json.js', 420, 436 ]
+312 silly gunzTarPerm extractEntry lib/report/text.js
+313 silly gunzTarPerm modified mode [ 'lib/report/text.js', 420, 436 ]
+314 silly gunzTarPerm extractEntry lib/report/lcov.js
+315 silly gunzTarPerm modified mode [ 'lib/report/lcov.js', 420, 436 ]
+316 silly gunzTarPerm extractEntry lib/report/templates/foot.txt
+317 silly gunzTarPerm modified mode [ 'lib/report/templates/foot.txt', 420, 436 ]
+318 silly gunzTarPerm extractEntry lib/report/templates/head.txt
+319 silly gunzTarPerm modified mode [ 'lib/report/templates/head.txt', 420, 436 ]
+320 silly gunzTarPerm extractEntry lib/report/common/defaults.js
+321 silly gunzTarPerm modified mode [ 'lib/report/common/defaults.js', 420, 436 ]
+322 silly gunzTarPerm extractEntry lib/command/check-coverage.js
+323 silly gunzTarPerm modified mode [ 'lib/command/check-coverage.js', 420, 436 ]
+324 silly gunzTarPerm extractEntry lib/command/cover.js
+325 silly gunzTarPerm modified mode [ 'lib/command/cover.js', 420, 436 ]
+326 silly gunzTarPerm extractEntry lib/command/help.js
+327 silly gunzTarPerm modified mode [ 'lib/command/help.js', 420, 436 ]
+328 silly gunzTarPerm extractEntry lib/command/index.js
+329 silly gunzTarPerm modified mode [ 'lib/command/index.js', 420, 436 ]
+330 silly gunzTarPerm extractEntry lib/command/instrument.js
+331 silly gunzTarPerm modified mode [ 'lib/command/instrument.js', 420, 436 ]
+332 silly gunzTarPerm extractEntry lib/command/report.js
+333 silly gunzTarPerm modified mode [ 'lib/command/report.js', 420, 436 ]
+334 silly gunzTarPerm extractEntry lib/command/test.js
+335 silly gunzTarPerm modified mode [ 'lib/command/test.js', 420, 436 ]
+336 silly gunzTarPerm extractEntry lib/command/common/run-with-cover.js
+337 silly gunzTarPerm modified mode [ 'lib/command/common/run-with-cover.js', 420, 436 ]
+338 silly gunzTarPerm extractEntry lib/store/fslookup.js
+339 silly gunzTarPerm modified mode [ 'lib/store/fslookup.js', 420, 436 ]
+340 silly gunzTarPerm extractEntry lib/store/index.js
+341 silly gunzTarPerm modified mode [ 'lib/store/index.js', 420, 436 ]
+342 silly gunzTarPerm extractEntry lib/store/memory.js
+343 silly gunzTarPerm modified mode [ 'lib/store/memory.js', 420, 436 ]
+344 silly gunzTarPerm extractEntry lib/store/tmp.js
+345 silly gunzTarPerm modified mode [ 'lib/store/tmp.js', 420, 436 ]
+346 silly gunzTarPerm extractEntry lib/util/factory.js
+347 silly gunzTarPerm modified mode [ 'lib/util/factory.js', 420, 436 ]
+348 silly gunzTarPerm extractEntry lib/util/file-matcher.js
+349 silly gunzTarPerm modified mode [ 'lib/util/file-matcher.js', 420, 436 ]
+350 silly gunzTarPerm extractEntry lib/util/file-writer.js
+351 silly gunzTarPerm modified mode [ 'lib/util/file-writer.js', 420, 436 ]
+352 silly gunzTarPerm extractEntry lib/util/help-formatter.js
+353 silly gunzTarPerm modified mode [ 'lib/util/help-formatter.js', 420, 436 ]
+354 silly gunzTarPerm extractEntry lib/util/input-error.js
+355 silly gunzTarPerm modified mode [ 'lib/util/input-error.js', 420, 436 ]
+356 silly gunzTarPerm extractEntry lib/util/insertion-text.js
+357 silly gunzTarPerm modified mode [ 'lib/util/insertion-text.js', 420, 436 ]
+358 silly gunzTarPerm extractEntry lib/util/meta.js
+359 silly gunzTarPerm modified mode [ 'lib/util/meta.js', 420, 436 ]
+360 silly gunzTarPerm extractEntry lib/util/tree-summarizer.js
+361 silly gunzTarPerm modified mode [ 'lib/util/tree-summarizer.js', 420, 436 ]
+362 silly gunzTarPerm extractEntry lib/util/writer.js
+363 silly gunzTarPerm modified mode [ 'lib/util/writer.js', 420, 436 ]
+364 silly gunzTarPerm extractEntry lib/util/yui-load-hook.js
+365 silly gunzTarPerm modified mode [ 'lib/util/yui-load-hook.js', 420, 436 ]
+366 silly gentlyRm /vagrant/.vagrant/app/node_modules/.staging/istanbul-a2bef095/node_modules is being purged
+367 verbose gentlyRm don't care about contents; nuking /vagrant/.vagrant/app/node_modules/.staging/istanbul-a2bef095/node_modules
+368 silly doParallel preinstall 3
+369 silly preinstall esprima@2.7.3 /vagrant/.vagrant/app/node_modules/.staging/esprima-b3851668
+370 info lifecycle esprima@2.7.3~preinstall: esprima@2.7.3
+371 silly preinstall istanbul@0.4.5 /vagrant/.vagrant/app/node_modules/.staging/istanbul-a2bef095
+372 info lifecycle istanbul@0.4.5~preinstall: istanbul@0.4.5
+373 silly preinstall jenkins-mocha@3.0.4 /vagrant/.vagrant/app/node_modules/.staging/jenkins-mocha-7949ea32
+374 info lifecycle jenkins-mocha@3.0.4~preinstall: jenkins-mocha@3.0.4
+375 silly lifecycle esprima@2.7.3~preinstall: no script for preinstall, continuing
+376 silly lifecycle istanbul@0.4.5~preinstall: no script for preinstall, continuing
+377 silly lifecycle jenkins-mocha@3.0.4~preinstall: no script for preinstall, continuing
+378 silly doReverseSerial remove 0
+379 silly doSerial move 0
+380 silly doSerial finalize 3
+381 silly finalize /vagrant/.vagrant/app/node_modules/esprima
+382 silly finalize /vagrant/.vagrant/app/node_modules/istanbul
+383 silly finalize /vagrant/.vagrant/app/node_modules/jenkins-mocha
+384 silly doSerial build 3
+385 silly build esprima@2.7.3
+386 info linkStuff esprima@2.7.3
+387 silly linkStuff esprima@2.7.3 has /vagrant/.vagrant/app/node_modules as its parent node_modules
+388 verbose linkBins esprima@2.7.3
+389 verbose link bins [ { esparse: './bin/esparse.js',
+389 verbose link bins     esvalidate: './bin/esvalidate.js' },
+389 verbose link bins   '/vagrant/.vagrant/app/node_modules/.bin',
+389 verbose link bins   false ]
+390 verbose linkMans esprima@2.7.3
+391 silly gentlyRm /vagrant/.vagrant/app/node_modules/.bin/esvalidate is being purged
+392 verbose gentlyRm don't care about contents; nuking /vagrant/.vagrant/app/node_modules/.bin/esvalidate
+393 silly gentlyRm /vagrant/.vagrant/app/node_modules/.bin/esparse is being purged
+394 verbose gentlyRm don't care about contents; nuking /vagrant/.vagrant/app/node_modules/.bin/esparse
+395 verbose unlock done using /home/vagrant/.npm/_locks/staging-aec038e568599c97.lock for /vagrant/.vagrant/app/node_modules/.staging
+396 silly rollbackFailedOptional Starting
+397 silly rollbackFailedOptional Finishing
+398 silly runTopLevelLifecycles Finishing
+399 silly install printInstalled
+400 warn solution-code@1.0.0 No repository field.
+401 verbose If you need help, you may report this error at:
+401 verbose     <https://github.com/npm/npm/issues>
+402 verbose stack Error: EPROTO: protocol error, symlink '../esprima/bin/esvalidate.js' -> '/vagrant/.vagrant/app/node_modules/.bin/esvalidate'
+402 verbose stack     at Error (native)
+403 verbose cwd /vagrant/.vagrant/app
+404 error Linux 4.4.0-165-generic
+405 error argv "/usr/bin/node" "/usr/bin/npm" "install"
+406 error node v6.17.1
+407 error npm  v3.10.10
+408 error path ../esprima/bin/esvalidate.js
+409 error code EPROTO
+410 error errno -71
+411 error syscall symlink
+412 error EPROTO: protocol error, symlink '../esprima/bin/esvalidate.js' -> '/vagrant/.vagrant/app/node_modules/.bin/esvalidate'
+413 error If you need help, you may report this error at:
+413 error     <https://github.com/npm/npm/issues>
+414 verbose exit [ -71, true ]
